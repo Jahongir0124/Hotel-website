@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+header {
+    background: rgb(172, 165, 166);
+   
+}
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+
+   
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 10vh;
+    color: white;
+}
+.navbar .logo h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.navbar .navigation a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar .navigation a:hover {
+    color: aqua;
+    transition: ease .5s;
+}
+.text {
+    text-align: center;
+    margin-top:30 px;
+}
+.text1 {
+    color:coral;
+}
+.button {
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 110px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.button:hover {
+    color:tomato;
+}
+.showcase{
+    background-image: url(../images/hotel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ 
+}
+.text3{
+    display: inline-block;
+    margin-top:90px;
+    font-size:50px;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+.info_up {
+    width: 80%;
+    margin: 0 auto;
+}
+#info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img_info{
+    background-image:url(../images/hotel2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+   
+    
+}
+.info1 {
+    background-color:#444;
+    text-align: center; 
+}
+.info1 h1 {
+    margin-top: 50px;
+}
+.info1 p {
+    margin-top:30 px;
+    text-align: center;
+}
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    top: 50px;
+}
+
+
+.menu .img8 img{
+
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+
+#showcase2 {
+    height: 500px;
+    background-image: url(../images/hotel4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#showcase2 .text10 .text11{
+    margin-top: 50px;
+    text-align: center;
+}
+.text10 h2{
+    margin-top: 14px;
+    text-align: center;
+    color:#fff
+
+}
+.text11 p {
+
+    background-color:coral;
+    padding: 30px;
+    margin-top: 14px;
+    font-family: sans-serif;
+}
+
+
+
+
+
